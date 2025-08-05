@@ -8,7 +8,7 @@ class sabaideeController extends Controller
 {
     public function show()
     {
-      return "ສະບາຍດີ ຫ້ອງການຊາວໜຸ່ມປະຊາຊົນປະຕິວັດລາວແຂວງສະຫວັນນະເຂດ";
+      return "ສະບາຍດີ ຫ້ອງການຊາວໜຸ່ມປະຊາຊົນປະຕິວັດລາວແຂວງສະຫວັນນະເຂດ"."ສຸດຍອດແລ້ວເດີ";
     }
 
     public function showshort()

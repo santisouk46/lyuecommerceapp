@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/sabaidee', [sabaideeController::class,'refusemsg']);
+Route::get('/sabaidee', [sabaideeController::class,'show']);
