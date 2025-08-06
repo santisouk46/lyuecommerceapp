@@ -1,0 +1,9 @@
+Create new Laravel app
+C:> composer create-project laravel/laravel lyuecommerceapp
+
+
+This command is for starting server
+C:> php artisan serve
+
+Create new controller
+C:> php artisan make:controller sabaideeController
