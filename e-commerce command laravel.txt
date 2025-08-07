@@ -20,3 +20,23 @@ C:> php artisan migrate
 
 the create model
 C:> php artisan make:model Employee
+
+Create controller for Employee
+C:> php artisan make:controller EmployeeController
+
+Authentication function
+
+C:> composer require laravel/breeze --dev
+php artisan breeze:install
+
+go to download nodejs first on https://nodejs.org/en/download
+
+npm install && npm run dev
+bash
+npm install
+npm run build
+
+php artisan migrate
+
+promt to chatGpt for develop e-commerce app.
+"create e-commerce app by using laravel 12 step by step"
