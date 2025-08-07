@@ -7,3 +7,16 @@ C:> php artisan serve
 
 Create new controller
 C:> php artisan make:controller sabaideeController
+
+Migrate Database
+
+c:> php artisan config:clear
+C:> php artisan cache:clear
+C:> php artisan migrate
+Create table to migrated database
+C:> php artisan make:migration create_employee_table
+then add table that you need in migrations directory.
+C:> php artisan migrate
+
+the create model
+C:> php artisan make:model Employee

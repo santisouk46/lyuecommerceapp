@@ -6,9 +6,11 @@ use Illuminate\Http\Request;
 
 class sabaideeController extends Controller
 {
-    public function show()
+    public function show($values)
     {
-      return "ສະບາຍດີ ຫ້ອງການຊາວໜຸ່ມປະຊາຊົນປະຕິວັດລາວແຂວງສະຫວັນນະເຂດ"."ສຸດຍອດແລ້ວເດີ";
+      $temp=458
+      $tmp=$tmp+$value;
+      return "ສະບາຍດີ ຫ້ອງການຊາວໜຸ່ມປະຊາຊົນປະຕິວັດລາວແຂວງສະຫວັນນະເຂດ".ucfirst($temp)."ສຸດຍອດແລ້ວເດີ";
     }
 
     public function showshort()
